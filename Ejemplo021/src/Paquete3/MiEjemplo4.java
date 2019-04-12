@@ -41,9 +41,13 @@ public class MiEjemplo4 {
         System.out.println("Ingres su Ciudad por favor: ");
         ciudad = entrada.nextLine();
 
+        /**
+         * Para presentar valores enteros se pone %d 
+         * Para presentar valor doubles se pone %f
+         */
         System.out.printf("Mis nombres son: %s \nMis apellidos son: %s\n"
                 + "Mi edad es: %d\n" + "Mis notas son: %d y %d\n"
-                + "Mi promedio es: %f\n" + "Mi ciudad es: %s\n",
+                + "Mi promedio es: %.2f\n" + "Mi ciudad es: %s\n",
                 nombresPersona, apellidosPersona, edad, nota1, nota2, promedio,
                 ciudad);
 
