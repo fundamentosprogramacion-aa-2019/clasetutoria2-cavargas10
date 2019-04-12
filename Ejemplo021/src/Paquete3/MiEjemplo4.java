@@ -6,8 +6,6 @@
 package Paquete3;
 
 import java.util.Scanner;
-import java.text.DecimalFormat;
-import java.util.*;
 
 /**
  *
@@ -36,6 +34,7 @@ public class MiEjemplo4 {
         nota1 = entrada.nextInt();
         System.out.println("Ingrese su nota 2: ");
         nota2 = entrada.nextInt();
+        
         promedio = (nota1 + nota2) / 2;
 
         entrada.nextLine(); // Esto es una limpieza de mi buffer de entrada
