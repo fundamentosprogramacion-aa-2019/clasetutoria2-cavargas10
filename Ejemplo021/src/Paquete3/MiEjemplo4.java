@@ -8,6 +8,7 @@ package Paquete3;
 import java.util.Scanner;
 import java.text.DecimalFormat;
 import java.util.*;
+
 /**
  *
  * @author Carlos Vargas
@@ -36,15 +37,15 @@ public class MiEjemplo4 {
         System.out.println("Ingrese su nota 2: ");
         nota2 = entrada.nextInt();
         promedio = (nota1 + nota2) / 2;
-        
+
         entrada.nextLine(); // Esto es una limpieza de mi buffer de entrada
         // Se hace luego de subir un numero entero y pedir una cadena
         System.out.println("Ingres su Ciudad por favor: ");
         ciudad = entrada.nextLine();
 
         /**
-         * Para presentar valores enteros se pone %d 
-         * Para presentar valor doubles se pone %f
+         * Para presentar valores enteros se pone %d Para presentar valor
+         * doubles se pone %f
          */
         System.out.printf("Mis nombres son: %s \nMis apellidos son: %s\n"
                 + "Mi edad es: %d\n" + "Mis notas son: %d y %d\n"
