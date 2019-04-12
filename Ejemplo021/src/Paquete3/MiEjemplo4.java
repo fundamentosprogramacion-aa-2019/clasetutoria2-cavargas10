@@ -6,7 +6,8 @@
 package Paquete3;
 
 import java.util.Scanner;
-
+import java.text.DecimalFormat;
+import java.util.*;
 /**
  *
  * @author Carlos Vargas
@@ -34,8 +35,8 @@ public class MiEjemplo4 {
         nota1 = entrada.nextInt();
         System.out.println("Ingrese su nota 2: ");
         nota2 = entrada.nextInt();
-        System.out.println("Su promedio es: ");
-        promedio = entrada.nextDouble();
+        promedio = (nota1 + nota2) / 2;
+        
         entrada.nextLine(); // Esto es una limpieza de mi buffer de entrada
         // Se hace luego de subir un numero entero y pedir una cadena
         System.out.println("Ingres su Ciudad por favor: ");
