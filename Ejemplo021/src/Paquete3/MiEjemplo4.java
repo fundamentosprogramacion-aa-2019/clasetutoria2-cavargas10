@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Carlos Vargas
+ * @author Carlos Andres Vargas Ramirez
  */
 public class MiEjemplo4 {
 
@@ -34,17 +34,18 @@ public class MiEjemplo4 {
         nota1 = entrada.nextInt();
         System.out.println("Ingrese su nota 2: ");
         nota2 = entrada.nextInt();
-        
+
         promedio = (nota1 + nota2) / 2;
 
         entrada.nextLine(); // Esto es una limpieza de mi buffer de entrada
-        // Se hace luego de subir un numero entero y pedir una cadena
+        // Se hace luego de escribir un numero entero y pedir una cadena
         System.out.println("Ingres su Ciudad por favor: ");
         ciudad = entrada.nextLine();
 
         /**
          * Para presentar valores enteros se pone %d Para presentar valor
-         * doubles se pone %f
+         * doubles se pone %f Para describir el numero de decimales que quiero
+         * se pone el porcentaje, luego un punto, luego el valor y luego la f
          */
         System.out.printf("Mis nombres son: %s \nMis apellidos son: %s\n"
                 + "Mi edad es: %d\n" + "Mis notas son: %d y %d\n"
