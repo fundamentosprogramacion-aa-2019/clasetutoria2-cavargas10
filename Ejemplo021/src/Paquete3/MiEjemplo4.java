@@ -49,7 +49,7 @@ public class MiEjemplo4 {
          */
         System.out.printf("Mis nombres son: %s \nMis apellidos son: %s\n"
                 + "Mi edad es: %d\n" + "Mis notas son: %d y %d\n"
-                + "Mi promedio es: %.2f\n" + "Mi ciudad es: %s\n",
+                + "Su promedio es: %.2f\n" + "Mi ciudad es: %s\n",
                 nombresPersona, apellidosPersona, edad, nota1, nota2, promedio,
                 ciudad);
 
